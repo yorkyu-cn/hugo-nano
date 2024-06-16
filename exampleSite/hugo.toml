@@ -157,6 +157,7 @@ type = "application/rss+xml"
 # 英文
 [languages.en]
 languageName = ":us:"
+title = "York Yu"
 
 [[languages.en.menu.main]]
 name = "Search"
