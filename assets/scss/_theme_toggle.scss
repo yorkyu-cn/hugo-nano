@@ -1,0 +1,21 @@
+button#theme-toggle {
+  margin: auto 10px;
+  background: none;
+  border: none;
+  padding: 0;
+  vertical-align: middle;
+  color: $theme-toggle-color;
+  cursor: pointer;
+}
+
+body #moon, #sun {
+  display: none;
+}
+
+body.colorscheme-light #moon {
+  display: inline-block;
+}
+
+body.colorscheme-dark #sun {
+  display: inline-block;
+}

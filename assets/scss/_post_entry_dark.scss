@@ -1,0 +1,33 @@
+@mixin post_entry_dark {
+  .post-entry {
+    border-color: $post-border-color-dark;
+    background: $post-entry-color-dark;
+  }
+
+  .entry-content {
+    color: $post-secondary-color-dark;
+  }
+
+  .entry-footer {
+    color: $post-secondary-color-dark;
+  }
+
+  .entry-hint {
+    color: $post-secondary-color-dark;
+  }
+
+  .entry-cover a {
+    color: $post-secondary-color-dark;
+    box-shadow: 0 1px 0 $post-primary-color-dark;
+  }
+}
+
+body.colorscheme-dark {
+  @include post_entry_dark();
+}
+
+body.colorscheme-auto {
+  @media (prefers-color-scheme: dark) {
+    @include post_entry_dark();
+  }
+}

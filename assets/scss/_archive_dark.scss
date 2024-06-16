@@ -1,0 +1,25 @@
+@mixin archive_dark {
+  .archive-year:not(:last-of-type) {
+    border-color: $post-border-color-dark;
+  }
+
+  .archive-month:not(:last-of-type) {
+    border-color: $post-border-color-dark;
+  }
+
+  .archive-count,
+  .archive-meta {
+    color: $post-secondary-color-dark;
+  }
+
+}
+
+body.colorscheme-dark {
+  @include archive_dark();
+}
+
+body.colorscheme-auto {
+  @media (prefers-color-scheme: dark) {
+    @include archive_dark();
+  }
+}

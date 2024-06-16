@@ -1,0 +1,9 @@
+.idea
+**/themes/
+exampleSite/public/
+exampleSite/resources/
+*.lock
+public
+docs
+resources
+netlify.toml

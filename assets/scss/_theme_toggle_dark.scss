@@ -1,0 +1,15 @@
+@mixin theme_toggle_dark {
+  button#theme-toggle {
+    color: $theme-toggle-color-dark;
+  }
+}
+
+body.colorscheme-dark {
+  @include theme_toggle_dark();
+}
+
+body.colorscheme-auto {
+  @media (prefers-color-scheme: dark) {
+    @include theme_toggle_dark();
+  }
+}

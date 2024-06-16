@@ -1,0 +1,28 @@
+name = "hugo-nano"
+license = "MIT"
+licenselink = "https://github.com/yorkyu-cn/hugo-nano/main/LICENSE.md"
+description = "A Simple, Clean, Customizable, Smooth, Responsive Hugo theme"
+homepage = "https://github.com/yorkyu-cn/hugo-nano/"
+demosite = ""
+tags = [
+  "blog",
+  "minimal",
+  "minimalist",
+  "responsive",
+  "simple",
+  "clean",
+  "personal"
+]
+features = [
+  "analytics",
+  "favicon",
+  "multilingual",
+  "pagination",
+  "single-column",
+  "syntax-highlighting"
+]
+min_version = "0.120.0"
+
+[author]
+name = "yorkyu"
+homepage = "https://blog.yorkyu.cn"

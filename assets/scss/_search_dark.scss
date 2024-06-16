@@ -1,0 +1,24 @@
+@mixin search_dark {
+  #searchbox input {
+    color: $post-primary-color-dark;
+    border-color: $post-tertiary-color-dark;
+  }
+
+  #searchbox input:focus {
+    border-color: $post-secondary-color-dark;
+  }
+
+  #searchResults .focus {
+    border-color: $post-tertiary-color-dark;
+  }
+}
+
+body.colorscheme-dark {
+  @include search_dark();
+}
+
+body.colorscheme-auto {
+  @media (prefers-color-scheme: dark) {
+    @include search_dark();
+  }
+}
