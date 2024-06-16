@@ -5,6 +5,8 @@
 <img width="1915" alt="image" src="https://github.com/yorkyu-cn/hugo-nano/assets/168805827/92f1f1a2-9a5f-4e81-91aa-07a518876164">
 
 ## Quick Start
+Follow [Hugo Docs's - Quick Start](https://gohugo.io/getting-started/quick-start/) guide to install Hugo.
+
 ```sh
 hugo new site quickstart
 cd quickstart
