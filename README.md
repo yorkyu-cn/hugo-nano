@@ -4,3 +4,11 @@
 
 
 ## Quick Start
+```sh
+hugo new site quickstart
+cd quickstart
+git init
+git submodule add https://github.com/yorkyu-cn/hugo-nano.git themes/nano
+echo "theme = 'nano'" >> hugo.toml
+hugo server
+```
