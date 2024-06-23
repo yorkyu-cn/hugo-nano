@@ -26,7 +26,10 @@ info = ["Full Stack Engineer"]
 avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
+dateFormatZhCN = "2006年01月02日"
 since = 2024
+ShowWordCount = true
+ShowReadingTime = true
 # Git Commit in Footer, uncomment the line below to enable it
 commit = "https://github.com/yorkyu-cn/hugo-nano/tree/"
 # Right To Left, shift content direction for languages such as Arabic
